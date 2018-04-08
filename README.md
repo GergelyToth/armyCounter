@@ -12,18 +12,18 @@ Data Schema:
       "power": 0,
       "details": [
         {
-        "Name": "unit/variation name",
-        "M": "M",
-        "WS": "WS",
-        "BS": "BS",
-        "S": "S",
-        "T": "T",
-        "W": "W",
-        "A": "A",
-        "Ld": "Ld",
-        "Sv": "Sv",
-        "Points": 0,
-        "MpU": "Models per Unit"
+          "Name": "unit/variation name",
+          "M": "M",
+          "WS": "WS",
+          "BS": "BS",
+          "S": "S",
+          "T": "T",
+          "W": "W",
+          "A": "A",
+          "Ld": "Ld",
+          "Sv": "Sv",
+          "Points": 0,
+          "MpU": "Models per Unit"
         },
         { ... }
       ]
