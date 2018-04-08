@@ -1,0 +1,28 @@
+/* format */
+.arrayTable {
+	width: 100%;
+	display: table;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.arrayTable > .tableHeader,
+.arrayTable > .tableRow {
+	display: table-row;
+}
+
+.arrayTable > .tableHeader > div,
+.arrayTable > .tableRow > div {
+	display: table-cell;
+	padding: 2px 5px;
+}
+
+/* style */
+.arrayTable > .tableHeader {
+	background-color: #7474CF;
+	font-weight: bold;
+}
+
+.arrayTable > .tableRow:nth-child(odd) {
+	background-color: #ccc;
+}
