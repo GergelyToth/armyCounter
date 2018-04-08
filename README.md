@@ -1,6 +1,6 @@
 # 40k Army Counter
 
-Data has been removed to avoid copyright breaches.
+The data has been removed to avoid copyright breaches.
 
 Data Schema:
 
@@ -8,8 +8,8 @@ Data Schema:
 {
 	"units": [
 		{
-      "name": "name",
-      "power": 0,
+			"name": "name",
+			"power": 0,
 			"details": [
 				{
 					"Name": "unit/variation name",
