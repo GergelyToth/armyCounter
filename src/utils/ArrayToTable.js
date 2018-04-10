@@ -17,7 +17,7 @@ class ArrayToTable extends Component {
 					<div className="tableCell">Counter</div>
 					{header.map(headerItem => <div className="tableCell">{headerItem}</div>)}
 				</div>
-				{items.map((row, index) => <TableRow data={row} />)}
+				{items.map(row => <TableRow data={row} />)}
 			</div>
 		);
 	}

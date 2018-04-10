@@ -8,7 +8,7 @@ class App extends Component {
 		window.addEventListener('recalculate', this.onRecalculate.bind(this));
 	}
 
-	onRecalculate(evt) {
+	onRecalculate(/*evt*/) {
 		let units = document.querySelectorAll('.unit .tableRow');
 		let sum = 0;
 		units.forEach(unit => {
